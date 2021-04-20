@@ -1,0 +1,213 @@
+@import "./reset.css";
+
+body {
+    font-size: 23px;
+    color: #f7f7f7;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+    color: #f7f7f7;
+}
+ul,
+li {
+    list-style: none;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    background-image: url(../img/header-bg.jpg);
+    height: 780px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 25px 0 240px;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.header__top-left {
+    display: flex;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+}
+.header__top-right {
+    display: flex;
+    align-items: center;
+}
+.header__top-logo {
+    margin-right: 15px;
+}
+.header__list {
+    display: flex;
+}
+.header__list-item + .header__list-item {
+    margin-left: 60px;
+    margin-right: 64px;
+}
+.header__top-img {
+    margin-right: 65px;
+}
+.header__top-login {
+    padding: 2px 23px;
+    font-size: 23px;
+    line-height: 27px;
+    border: 2px solid #cd6326;
+    border-radius: 5px;
+}
+
+.header__content {
+    width: 275px;
+}
+.header__content-title {
+    font-size: 48px;
+    line-height: 72px;
+    color: #cd6326;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.header__content-text {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+.header__content-btn {
+    padding: 16px 42px;
+    background: #cd6326;
+    border-radius: 5px;
+    font-size: 23px;
+    line-height: 27px;
+    color: #f7f7f7;
+    outline: none;
+}
+
+.articles {
+    height: 1368px;
+    background: #cccccc;
+    border-radius: 0px;
+    text-align: center;
+    padding: 120px 0 240px;
+}
+.articles__title {
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.articles__titletext {
+    font-size: 24px;
+    line-height: 36px;
+    color: #666666;
+    margin-bottom: 120px;
+}
+.articles__items {
+    margin-bottom: 240px;
+}
+.articles__text {
+    font-size: 27px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 60px;
+}
+.articles__form {
+    display: flex;
+    justify-content: center;
+}
+.articles__form-input {
+    background: inherit;
+    outline: none;
+    width: 510px;
+    height: 60px;
+    border: 1px solid #666666;
+}
+.articles__form-btn {
+    font-size: 23px;
+    line-height: 27px;
+    color: #f7f7f7;
+    background: #cd6326;
+    border: 1px solid #cd6326;
+    border-radius: 0px 5px 5px 0px;
+    width: 120px;
+    height: 60px;
+}
+.articles__item {
+    width: 300px;
+    height: 360px;
+    text-align: center;
+}
+.articles__item-title {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+.articles__item-text {
+    font-size: 17px;
+    line-height: 27px;
+}
+.footer {
+    height: 360px;
+    background-image: url("../img/footer-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer__content {
+    display: flex;
+    align-items: center;
+    height: 360px;
+}
+.footer__content-title {
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    margin-right: 120px;
+}
+.footer__list {
+    display: flex;
+    margin-right: 118px;
+}
+.footer__list-item {
+    font-size: 23px;
+    line-height: 60px;
+}
+.footer__list-item + .footer__list-item {
+    margin-left: 85px;
+}
+.footer__social {
+    display: flex;
+}
+.footer__social-item + .footer__social-item {
+    margin-left: 27px;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slick-dots button {
+    outline: none;
+    background: rgba(59, 59, 59, 0.533);
+    border: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 0;
+}
+.slick-dots li {
+    padding: 15px;
+}
+.slick-dots li.slick-active button {
+    background-color: green;
+}
